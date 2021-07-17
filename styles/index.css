@@ -24,10 +24,10 @@ a {
 }
 
 .text-center{
-  text-align: center;
+  text-align: center !important;
 }
 
-.dark-nav{
+.nav{
   background-color: #34495e !important;
   -webkit-background-color: #34495e !important;
   -moz-background-color: #34495e !important;
@@ -43,4 +43,25 @@ a {
 }
 .ul-nav li{
   padding: 1.2em 1em;
+}
+
+.header-section{
+  padding: 10em 0;
+}
+.text-header{
+  margin: 0;
+  font-size: 3em;
+}
+.text-header__desc{
+  font-weight: 200;
+}
+
+.footer{
+  background-color: #34495e !important;
+  -webkit-background-color: #34495e !important;
+  -moz-background-color: #34495e !important;
+  -o-background-color: #34495e !important;
+  padding: 0.5em 0;
+  color: white;
+  font-weight: 100;
 }
