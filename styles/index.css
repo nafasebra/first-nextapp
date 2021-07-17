@@ -7,6 +7,8 @@
 
 html,
 body {
+  min-height: 100vh;
+  height: 100vh;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -36,6 +38,30 @@ button:focus{
   text-align: center !important;
 }
 
+.post-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5em 0 2.5em;
+}
+.main-post{
+  width: 550px;
+}
+@media (max-width: 550px){
+  .main-post{
+    width: 100%;
+    padding: 1em 0.5em;
+  }
+}
+.head-text{
+  font-size: 2em;
+}
+.text-body{
+  color: #707070;
+}
+
+
 /* navbar */
 .nav{
   background-color: #34495e !important;
@@ -56,7 +82,7 @@ button:focus{
 
 /* header */
 .header-section{
-  padding: 10em 0;
+  padding: 35vh 0;
 }
 .text-header{
   margin: 0;
