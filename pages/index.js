@@ -1,3 +1,5 @@
+// my-domain.com/
+
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -28,13 +30,9 @@ export default function Home() {
             Welcome to the project, enjoy! B)
           </h3>
 
-          <button className="btn-dark">Continue...</button>
+          <button className="btn-dark">Continue !</button>
         </div>
       </header>
-
-      <main>
-        
-      </main>
 
       <footer className="footer">
         <p className="text-center"> this a test footer, Which copyright?! </p>
