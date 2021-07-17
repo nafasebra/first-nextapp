@@ -107,6 +107,27 @@ button:focus{
   border-radius: 2em;
 }
 
+/* forms */
+.form-container{
+  margin: 1em 0 1.5em;
+  padding: 1.5em 0.5em;
+}
+form{
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-direction: column;
+}
+input,
+textarea{
+  padding: 0.5em 0.75em;
+  margin: 0.5em 0 1em;
+}
+input:focus,
+textarea:focus{
+  outline: none !important;
+}
+
 /* footer */
 .footer{
   background-color: #34495e !important;
