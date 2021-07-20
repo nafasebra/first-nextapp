@@ -1,12 +1,14 @@
 {
   "name": "firstnext",
   "version": "0.1.0",
+  "homepage": ".",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next build && next export -o _static"
   },
   "dependencies": {
     "next": "11.0.1",
